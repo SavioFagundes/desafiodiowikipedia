@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px 0;
+}
+.link{
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.article {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.article h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
